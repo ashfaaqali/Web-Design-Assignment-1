@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video And Audio</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        }
+        .video {
+            margin-top: 50px;
+        }
+        .audio{
+            margin-top: 50px;
+        }
+        #vid {
+            margin-top: 20px;
+            border-radius: 18px;
+        }
+        #aud {
+            margin-top: 20px;
+        }
+        .line2 {
+            margin-left: 700px;
+            margin-right: 700px;
+            border-top: 3px solid#5ab3e3;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="video" align="center">
+        <h1>Embedded Video</h1>
+        <div class="line2">
+        </div>
+        <iframe id="vid" width="95%" height=600 src="https://www.youtube.com/embed/9bjqTwbAgS8?autoplay=1&mute=1"
+            title="Diversity at Integral University - A Global University in Lucknow, India" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="audio" align="center">
+        <h1>Embedded Audio</h1>
+        <div class="line2">
+        </div>
+        <iframe id="aud" style="border-radius:18px" src="https://open.spotify.com/embed/track/1mRSA7bk3iEvAyKLXHL7bi?utm_source=generator" width="95%" height="380" frameBorder="0" allowfullscreen="" allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+</body>
+</html>
+
