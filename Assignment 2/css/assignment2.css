@@ -17,22 +17,6 @@ html{
     background-color: #5ab3e3;
 }
 
-.button2 {
-    text-decoration: none;
-    color: #ffffff;
-    background-color: #225b79;
-    padding: 6px;
-    border: none;
-    cursor: pointer;
-    font-size: 13px;
-    border-radius: 12px;
-}
-
-.button2:hover {
-    color: #ffffff;
-    background-color: #5ab3e3;
-}
-
 #heading {
     margin-top: 50px;
     color: #225b79;
@@ -47,7 +31,10 @@ html{
 }
 
 .assignment {
-    margin-left: 20px;
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 30px;
 }
 
 .wifi {

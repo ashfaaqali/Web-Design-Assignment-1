@@ -1,0 +1,14 @@
+body{
+    background-color: #C0C0C0;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    background-color: rgb(103, 54, 54); 
+    display: inline;
+}
+.para{
+    color: rgb(158, 19, 47); 
+    background: rgb(255, 255, 255); 
+    display: block; 
+    padding: 02%;
+}
